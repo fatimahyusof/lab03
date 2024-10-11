@@ -10,7 +10,6 @@ output: html_document
 ```{r load-packages, message = FALSE, warning=FALSE}
 library(tidyverse)
 library(ggplot2)
-staff<- read_csv("data/instructional-staff.csv")
 ```
 
 
@@ -22,7 +21,7 @@ staff<- read_csv("data/instructional-staff.csv")
 knitr::include_graphics("img/Speaking-the-world.jpg")
 ```
 
-_Write your comments about image 1 below_
+_Write your comments about image 2 below_
 
 
 
