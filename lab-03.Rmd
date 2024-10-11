@@ -90,14 +90,13 @@ How many observations are there in the data set?
 
 ```{r pivoting}
 ## Uncomment and complete the following code
-
 staff_long <- staff %>%
-#  ___(
-#    cols = ____, 
-#    names_to = "_____",
-#    values_to = "percent"
-#    )
-
+  pivot_longer(
+    cols= 2:12,
+    names_to = "Year",
+    values_to = "percent"
+    )
+print(staff_long)
 ```
 
 
